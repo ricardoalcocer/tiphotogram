@@ -1,0 +1,67 @@
+"#feed":{
+	backgroundColor:"#cacaca",
+	fullscreen: false, // we need to make it heavyweight in order to use the menu and actionbar
+	orientationModes:[Ti.UI.PORTRAIT]
+},
+"#toolbar[platform=ios]":{
+	top: 0,
+	barColor: "#AD2B2B"
+},
+"#apptitle":{
+	 color:"#fff",
+	 left:"10",
+	 font:{
+	 	fontSize: "20dp",
+	 	fontWeight: "bold"
+	 } 
+},
+"#sv[platform=ios]":{
+	top:"50dp",
+	bottom:"0",
+	layout:"vertical",
+	showVerticalScrollIndicator:"true",
+	showHorizontalScrollIndicator:"true",
+	height:Ti.UI.FILL,
+	width:Ti.UI.FILL
+},
+"#sv[platform=android]":{
+	top:0,
+	bottom:0,
+	layout:"vertical",
+	showVerticalScrollIndicator:"true",
+	showHorizontalScrollIndicator:"true",
+	height:Ti.UI.FILL,
+	width:Ti.UI.FILL
+},
+"#menu1[platform=android]": {
+	icon: '/refreshicon.png',
+	title: 'Refresh',
+	showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
+},
+"#menu2[platform=android]": {
+	icon: '/cameraicon.png',
+	title: 'Camera',
+	showAsAction: Ti.Android.SHOW_AS_ACTION_ALWAYS
+},
+"#messageView":{
+	height:"100dp",
+    width:"300dp",
+    borderRadius:10,
+    backgroundColor:'#000',
+    opacity:0.7,
+    touchEnabled:false,
+    visible: false
+},
+"#messageLabel":{
+	text:'',
+    color:'#fff',
+    width:Ti.UI.SIZE,
+    height:Ti.UI.SIZE,
+    font:{
+        fontFamily:'Helvetica Neue',
+        fontSize:"14dp"
+    },
+    textAlign:'center'
+}
+
+

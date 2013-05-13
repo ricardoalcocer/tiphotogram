@@ -1,0 +1,43 @@
+"#photorow":{
+	height:Ti.UI.SIZE,
+	width:Ti.UI.FILL
+},
+"#photocontainer":{
+	height:"300dp",
+	top: "10dp",
+	bottom: "10dp",
+	left: "10dp",
+	right: "10dp",
+	width:Ti.UI.FILL,
+	backgroundColor:"#fff",
+	borderWidth:2,
+	borderColor: "#b2b2b2",
+	borderRadius: 5
+},
+"#photo":{
+	width: "90%",
+	height: "80%",
+	bottom: "45dp"
+},
+"#photometa":{
+	height: "35dp",
+	bottom: 0
+},
+"#owner":{
+	left: "5dp",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font:{
+		fontSize:"12dp"
+	}
+},
+"#date":{
+	right: "5dp",
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font:{
+		fontSize:"12dp"
+	}
+}

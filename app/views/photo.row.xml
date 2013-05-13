@@ -1,0 +1,11 @@
+<Alloy>
+	<View id="photorow">
+		<View id="photocontainer">
+			<ImageView id="photo"></ImageView>
+			<View id="photometa">
+				<Label id="owner"></Label>
+				<Label id="date"></Label>
+			</View>
+		</View>
+	</View>
+</Alloy>

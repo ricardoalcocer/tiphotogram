@@ -1,0 +1,16 @@
+<Alloy>
+	<Window class="container">
+		<ImageView image="/tiphotogramlogo.png" top="25dp"/>		
+		<View id="loginbox">
+			<View class="fieldrow">
+				<Label class="lbl">User name:</Label>
+				<TextField class="field" id="uid" value="ralcocer"></TextField>
+			</View>
+			<View class="fieldrow">
+				<Label class="lbl">Password:</Label>
+				<TextField class="field" id="pwd" value="mymagic"></TextField>
+			</View>
+			<Button id="login" onClick="doLogin">Login</Button>
+		</View>
+	</Window>
+</Alloy>

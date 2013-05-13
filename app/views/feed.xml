@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="feed" onOpen="setActionBar"> <!-- setting the actionbar on load because the window activity needs to be available -->
+		<!-- this bit is iOS-only -->
+		<Toolbar id="toolbar" platform="ios">
+			<Items>
+				<Button id="backbtn" systemButton="Ti.UI.iPhone.SystemButton.DONE" onClick="dologoff" />
+				<FlexSpace/>
+				<Button id="wintitle">Ti.PhotoGram</Button>
+				<FlexSpace/>
+				<Button id="test2" systemButton="Ti.UI.iPhone.SystemButton.REFRESH" onClick="dorefresh" />
+				<Button id="test2" systemButton="Ti.UI.iPhone.SystemButton.CAMERA" onClick="takePhoto" />
+			</Items>
+		</Toolbar>
+		<!-- #################### -->
+		
+		<!-- this bit is Android-only -->
+		<!-- items will be added to the actionbar -->
+		<Menu id="menu" platform="android">
+			<MenuItem id="menu1" onClick="dorefresh" />
+			<MenuItem id="menu2" onClick="takePhoto" />
+		</Menu>
+		<!-- #################### -->
+
+		<ScrollView id="sv"></ScrollView>
+		<View id="messageView">
+			<Label id="messageLabel" />
+		</View>
+	</Window>
+</Alloy>

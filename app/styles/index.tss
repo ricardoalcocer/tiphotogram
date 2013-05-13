@@ -1,0 +1,56 @@
+".container": {
+	backgroundColor:"white",
+	layout: "vertical",
+	orientationModes:[Ti.UI.PORTRAIT],
+	navBarHidden: "true",
+	exitOnClose: "true",
+	backgroundColor:"#A50000"
+},
+"#loginbox":{
+ 	height:"160dp",
+ 	width:"90%",
+ 	backgroundColor:"#fff",
+ 	layout:"vertical",
+ 	top:"10dp",
+ 	borderWidth: 1,
+ 	borderColor: "#cacaca",
+ 	borderRadius: 5
+},
+".fieldrow":{
+	top: "5dp",
+	height: "50dp",
+	width: Ti.UI.FILL
+},
+"Label":{
+	font:{
+		fontSize: "15dp"
+	}
+},
+".lbl":{
+	left: "5dp",
+	font:{
+		fontWeight: 'bold',
+		fontSize: "15dp"
+	},
+	color: "#000"
+},
+".field":{
+	right: "5dp"
+},
+"#uid":{
+	 height:"50dp",
+	 width:"60%",
+	 borderStyle:Ti.UI.INPUT_BORDERSTYLE_BEZEL,
+	 font:{
+		fontSize: "15dp"
+	}
+},
+"#pwd":{
+	height:"50dp",
+	width:"60%",
+	borderStyle:Ti.UI.INPUT_BORDERSTYLE_BEZEL,
+	passwordMask:"true",
+	font:{
+		fontSize: "15dp"
+	}
+}
